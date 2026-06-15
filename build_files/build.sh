@@ -8,6 +8,8 @@ dnf copr enable -y ryanabx/cosmic-epoch
 dnf install -y cosmic-desktop
 dnf copr disable -y ryanabx/cosmic-epoch
 
+dnf remove -y kde-desktop-environment
+
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
